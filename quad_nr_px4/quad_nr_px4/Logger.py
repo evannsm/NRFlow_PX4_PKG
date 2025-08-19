@@ -12,7 +12,7 @@ class Logger:
 
         base_path = os.path.dirname(os.path.abspath(__file__))  # Get the script's directory
         # base_path = os.path.abspath(os.path.join(base_path, ".."))  # A way to go up one level
-        base_path = os.path.join(base_path, 'data_analysis/') # Append the 'data_analysis' folder to the path
+        base_path = os.path.join(base_path, 'data_analysis/logs') # Append the 'data_analysis' folder to the path
         parts = base_path.split(os.sep)        # Split the path into components
         parts = ["src" if part == "build" else part for part in parts]        # Replace 'build' with 'src' if it exists in the path
         base_path = os.sep.join(parts)        # Reconstruct the new path
