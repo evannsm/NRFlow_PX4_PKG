@@ -34,3 +34,21 @@ ros2 run quad_nr_px4 nr_quad log.log
 I have set up inputs from the command line for simulation/hardware as well as trajectory speed settings.
 To change the trajectory type, change `reffunc` inside the code
 
+
+# Papers and their repositories:
+[American Control Conference 2024](https://coogan.ece.gatech.edu/papers/pdf/cuadrado2024tracking.pdf)
+[Personal Version of Repository](https://github.com/evannsm/MoralesCuadrado_ACC2024)  
+[Official FACTSLab Repository](https://github.com/gtfactslab/MoralesCuadrado_Llanes_ACC2024)  
+
+Transactions on Control Systems Technology 2025  
+[Personal Version of Repository](https://github.com/evannsm/MoralesCuadrado_Baird_TCST2025)  
+[Official FACTSLab Repository](https://github.com/gtfactslab/Baird_MoralesCuadrado_TRO_2025)  
+
+Transactions on Robotics 2025  
+[Personal Version of Repository](https://github.com/evannsm/MoralesCuadrado_Baird_TCST2025)  
+[Official FACTSLab Repository](https://github.com/gtfactslab/MoralesCuadrado_Baird_TCST2025)  
+
+# Works:
+Repositories that hold other Newton-Raphson work  
+[2025_NewtonRaphson_QuadrotorComplete](https://github.com/evannsm/2025_NewtonRaphson_QuadrotorComplete)    
+[Blimp_SimHardware_NR_MPC_FBL_BodyOfWork2024](https://github.com/evannsm/Blimp_SimHardware_NR_MPC_FBL_BodyOfWork2024)  
